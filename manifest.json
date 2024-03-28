@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "NoriBooru direct upload",
+  "version": "1.0",
+  "permissions": ["contextMenus", "storage", "webRequest", "webRequestBlocking", "<all_urls>", "*://*/*"],
+  "description": "TBD",
+  "icons": {
+    "48": "icons/nori.png"
+  },
+  "background": {
+    "scripts": ["context_menu_populator.js"]
+  },
+  "browser_action": {
+    "default_icon": "icons/nori.png",
+    "default_title": "NoriBooru Uploader",
+    "default_popup": "popup/choose_vault.html"
+  }
+}
