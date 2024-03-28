@@ -3,7 +3,7 @@
   "name": "NoriBooru direct upload",
   "version": "1.0",
   "permissions": ["contextMenus", "storage", "webRequest", "webRequestBlocking", "<all_urls>", "*://*/*"],
-  "description": "TBD",
+  "description": "NoriBooru media uploader",
   "icons": {
     "48": "icons/nori.png"
   },
